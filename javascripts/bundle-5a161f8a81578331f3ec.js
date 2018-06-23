@@ -1447,7 +1447,7 @@ var App = _wrapComponent("App")(function (_Component) {
     value: function render() {
       var _this4 = this;
 
-      var videoWidth = this.state.width * 0.8 - 20;
+      var videoWidth = this.state.width * 0.7 - 20;
       var videoHeight = videoWidth * 0.7 * 3 / 4 + 2;
 
       this.opts = {
@@ -1543,7 +1543,7 @@ var App = _wrapComponent("App")(function (_Component) {
 
           var node = _react3.default.createElement(
             "div",
-            { style: { display: "inline-block", minWidth: 40, color: shoudHilight ? base.Color.green : "black", margin: 3, fontSize: 14, padding: 2, border: "1px solid", borderColor: shoudHilight ? base.Color.green : "black" }, onClick: function onClick() {
+            { style: { display: "inline-block", minWidth: 40, color: shoudHilight ? base.Color.green : "black", margin: 3, fontSize: 12, padding: 2, border: "1px solid", borderColor: shoudHilight ? base.Color.green : "black" }, onClick: function onClick() {
                 _this4.chooseLang(lang_code);
               } },
             lang_text,
@@ -1624,18 +1624,18 @@ var App = _wrapComponent("App")(function (_Component) {
           { style: { backgroundColor: "white", height: 46, borderBottom: "1px solid rgba(0,0,0,0.2)", marginBottom: "8px" } },
           _react3.default.createElement(
             "span",
-            { style: { fontSize: "30px", paddingTop: 10, color: base.Color.green, fontWeight: "bold" } },
+            { style: { fontSize: "22px", paddingTop: 10, color: base.Color.green, fontWeight: "bold" } },
             "Youtube++",
             " "
           ),
           _react3.default.createElement(
             "span",
-            { style: { color: base.Color.green, fontWeight: "bold", fontSize: 16 } },
+            { style: { color: base.Color.green, fontWeight: "bold", fontSize: 14 } },
             " for language learners"
           ),
           _react3.default.createElement(
             "a",
-            { target: "_blank", style: { backgroundColor: "#1DA1F2", marginLeft: 100, color: "white", padding: 2, borderRadius: 4, textDecoration: "none", fontSize: 14 }, href: "https://twitter.com/AndyYan26821377" },
+            { target: "_blank", style: { backgroundColor: "#1DA1F2", marginLeft: 10, color: "white", padding: 2, borderRadius: 4, textDecoration: "none", fontSize: 14 }, href: "https://twitter.com/AndyYan26821377" },
             "  follow ",
             _react3.default.createElement(_twitter2.default, { style: { color: "white" }, size: 18 })
           )
